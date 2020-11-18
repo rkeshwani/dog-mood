@@ -1,4 +1,14 @@
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+This project uses a model that I built using tensorflow's image classification tools that generate machine learning models.
+I then converted this model for use on the web while experimenting with accuracies and hyperparameters to determine a good balance between size of model, accuracy and performance on mobile devices. A large contributor to the performance of this was using "mobile net v2" as the base model for image classification.
+
+## Deploying to firebase
+Note: this application uses firebase to deploy to so that you can view this on your phone. Create a free account there and then export your configuration in src/firebaseConfig.js
+Then you can use firebase console commands to deploy to firebase hosting.
+
+## PS
+I really need help naming this thing project. If you think of a creative name, please send me a note via github, twitter @rkeshwani, or my email address rohit.keshwani@gmail.com.
+
 
 ## Available Scripts
 
