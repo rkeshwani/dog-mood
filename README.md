@@ -2,6 +2,10 @@ This project was bootstrapped with [Create React App](https://github.com/faceboo
 This project uses a model that I built using tensorflow's image classification tools that generate machine learning models.
 I then converted this model for use on the web while experimenting with accuracies and hyperparameters to determine a good balance between size of model, accuracy and performance on mobile devices. A large contributor to the performance of this was using "mobile net v2" as the base model for image classification.
 
+## Models
+To generate your own models please visit [this blog post](https://www.rohitkeshwani.com/recognizing-your-dogs-mood-with-the-power-of-machine-learning/)
+Store these in the public/model and public/model2 folders.
+
 ## Deploying to firebase
 Note: this application uses firebase to deploy to so that you can view this on your phone. Create a free account there and then export your configuration in src/firebaseConfig.js
 Then you can use firebase console commands to deploy to firebase hosting.
