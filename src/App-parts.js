@@ -2,15 +2,15 @@ import React, {useEffect, useState} from 'react';
 
 import './App.css';
 // import * as mobilenet from '@tensorflow-models/mobilenet'
-import * as firebase from "firebase/app"
-import "firebase/performance"
-import "firebase/analytics"
+// import * as firebase from "firebase/app"
+// import "firebase/performance"
+// import "firebase/analytics"
 import { CameraView } from './components/CameraView';
 import { Predictions } from './components/Predictions';
 import { Intro } from './components/Intro'
 import * as tf from '@tensorflow/tfjs';
 
-import firebaseConfig from "./firebaseConfig"
+// import firebaseConfig from "./firebaseConfig"
 
 function App() {
     
@@ -22,9 +22,9 @@ function App() {
 
     useEffect(()=>{
       // Initialize Firebase analytics here
-      firebase.initializeApp(firebaseConfig.firebaseConfig);
-      const perf = firebase.performance();
-      const analytics = firebase.analytics();
+      // firebase.initializeApp(firebaseConfig.firebaseConfig);
+      // const perf = firebase.performance();
+      // const analytics = firebase.analytics();
       //Load model into memory
       async function loadTensorflow() {
         //Load Model
