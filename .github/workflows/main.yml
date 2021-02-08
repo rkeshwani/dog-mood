@@ -3,7 +3,7 @@ on: [push, pull_request]
 jobs:
   run_test:
     steps:
-      -name: Run Test
+      - name: Run Test
         uses: cypress-io/github-action@v2
         with:
           browser: chrome
