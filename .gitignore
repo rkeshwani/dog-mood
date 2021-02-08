@@ -28,3 +28,6 @@ yarn-error.log*
 .firebaserc
 src/firebaseConfig.js
 /.firebase
+
+#cypress
+/cypress/integration/examples
