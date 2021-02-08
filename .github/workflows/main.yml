@@ -1,8 +1,8 @@
 name: Cypress run
 on: [push, pull_request]
 jobs:
-  runs-on: ubuntu-16.04
   run_test:
+    runs-on: ubuntu-latest
     steps:
       - name: Run Test
         uses: cypress-io/github-action@v2
