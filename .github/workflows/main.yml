@@ -5,13 +5,12 @@ jobs:
     runs-on: ubuntu-latest
     steps:
       - name: Checkout Repository
-        uses: actions/checkout@v1
+        uses: actions/checkout@v2
       - name: Run Test
         uses: cypress-io/github-action@v2
         with:
           browser: chrome
           headless: true
-          record: true
           start: npm start
           wait-on: http://localhost:3000
         env:
